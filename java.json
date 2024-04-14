@@ -1,0 +1,77 @@
+{
+  "Person_Data": [
+    {
+      "fname": "Brandon",
+      "lname": "Boone",
+      "city": "Mount Pearl",
+      "phnum": "7098675309",
+      "occupation": "Stay-at-Home Cat Dad",
+      "time": 4,
+      "age": 22,
+      "salary": 20000,
+      "interests": [
+        "Cats",
+        "Tacos",
+        "JavaScript",
+        "Male Gym Leggings",
+        "Pinatas"
+      ]
+    },
+    {
+      "fname": "Allison",
+      "lname": "Janes",
+      "city": "Flatrock",
+      "phnum": "7095551949",
+      "occupation": "Professional Squeegee Cleaner",
+      "time": 9,
+      "age": 27,
+      "salary": 35000,
+      "interests": ["Cars", "Rocks", "Cows", "JavaScript", "Spiders"]
+    },
+    {
+      "fname": "Mo",
+      "lname": "Hollett",
+      "city": "St. John's",
+      "phnum": "4032767208",
+      "occupation": "Social Media Influencer",
+      "time": 29,
+      "age": 42,
+      "salary": 100000,
+      "interests": [
+        "TikTok",
+        "The smell of a clean bathroom",
+        "Calculus",
+        "Politics",
+        "Sailor Moon"
+      ]
+    },
+    {
+      "fname": "Brad",
+      "lname": "Rawsthorne",
+      "city": "Lawn",
+      "phnum": "7096373323",
+      "occupation": "Retail Clerk",
+      "time": 2,
+      "age": 38,
+      "salary": 15000,
+      "interests": [
+        "Lattes",
+        "Crypto",
+        "Shopping",
+        "Hamburgers",
+        "Blacksmithing"
+      ]
+    },
+    {
+      "fname": "Abdul",
+      "lname": "Bowers",
+      "city": "St. John's",
+      "phnum": "9021235813",
+      "occupation": "Pinball Wizard",
+      "time": 52,
+      "age": 76,
+      "salary": 99000,
+      "interests": ["Ping Pong", "The Who", "Slushies", "Travelling", "Bowling"]
+    }
+  ]
+}
