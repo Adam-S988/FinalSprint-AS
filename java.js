@@ -20,9 +20,9 @@ function getParagraphInfo(data) {
   let paraInfo = "";
 
   data.Person_Data.forEach((person) => {
-    // Display each person's information as a paragraph
+    // Display each person's information as a sentence
     paraInfo += "<hr>";
-    paraInfo += `${person.fname}, is a ${person.age}-year old who lives in ${person.city}. They have enjoyed working as a ${person.occupation} for ${person.time} years.<br>`; // Include the person's time of work
+    paraInfo += `${person.fname}, is a ${person.age}-year old who lives in ${person.city}. They have enjoyed working as a ${person.occupation} for ${person.time} years.<br>`;
   });
   return paraInfo;
 }
@@ -37,15 +37,13 @@ function getInterestInfo(data) {
     interestInfo += `<h3>Person:</h3>`;
     interestInfo += `<p><strong>Name:</strong> ${person.fname} ${person.lname}</p>`;
     if (person.interests && person.interests.length > 0) {
-      // Corrected property name to "interests"
-      interestInfo += `<ul>`; // Start the list of interests
+      interestInfo += `<ul>`;
       person.interests.forEach((interest) => {
-        // Iterate over interests
-        interestInfo += `<li>${interest}</li>`; // Display each interest
+        interestInfo += `<li>${interest}</li>`;
       });
-      interestInfo += `</ul>`; // End the list of interests
+      interestInfo += `</ul>`;
     } else {
-      interestInfo += `<p>No interests available</p>`; // Display a message if no interests are available
+      interestInfo += `<p>No interests available</p>`;
     }
   });
   return interestInfo;
